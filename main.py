@@ -130,13 +130,6 @@ class MoodDiaryApp:
         top_frame = tk.Frame(card, bg="white")
         top_frame.pack(fill=tk.X, padx=12, pady=(10, 5))
 
-        # Иконка эмоции
-        emotion_icons = {
-            "радость": "😊", "грусть": "😢", "спокойствие": "😌",
-            "злость": "😠", "страх": "😨", "удивление": "😲"
-        }
-        icon = emotion_icons.get(entry['emotion'], "😐")
-
         date_label = tk.Label(top_frame, text=f"{date_str}  {icon} {entry['emotion']}",
                               font=("Arial", 10), bg="white", fg="#666")
         date_label.pack(side=tk.LEFT)

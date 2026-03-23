@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 from tkinter.font import Font
-
+#проверка22
 # Имя файла для хранения данных
 DATA_FILE = "mood_diary.json"
 
